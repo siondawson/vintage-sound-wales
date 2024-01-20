@@ -25,3 +25,17 @@
     position: relative;
     z-index: 1;
   }
+
+  #hero p {
+    margin: 0;
+    /* font-size: 64px;
+    font-weight: 700; */
+    line-height: 56px;
+    color: #45505b;
+    position: relative;
+    z-index: 1;
+  }
+
+  .bg-off-white {
+    background-color: #f8f9fa; /* Replace with your preferred off-white color code */
+}
