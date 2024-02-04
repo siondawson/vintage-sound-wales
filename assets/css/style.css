@@ -1,3 +1,14 @@
+h2, h3, h4, h5, h6, .lead, #contact-form {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
 #hero {
     width: 100%;
     height: 100vh;
@@ -17,6 +28,7 @@
   }
   
   #hero h1 {
+    font-family: 'Gruppo', sans-serif;
     margin: 0;
     font-size: 64px;
     font-weight: 700;
@@ -27,9 +39,9 @@
   }
 
   #hero p {
+    font-family: 'Roboto Mono', monospace;
     margin: 0;
-    /* font-size: 64px;
-    font-weight: 700; */
+    font-weight: 500; 
     line-height: 56px;
     color: #45505b;
     position: relative;
@@ -38,4 +50,18 @@
 
   .bg-off-white {
     background-color: #f8f9fa; /* Replace with your preferred off-white color code */
+}
+
+.btn-primary {
+  background-color: #fafafa;
+  color: #000;
+  border-radius: 0;
+  border-color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #323232;
+  color: #fafafa;
+  border-radius: 0;
+  border-color: #000;
 }
