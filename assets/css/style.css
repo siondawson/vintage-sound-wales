@@ -1,13 +1,16 @@
+/* FONTS */
+
 h2, h3, h4, h5, h6, .lead, #contact-form {
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
 }
 
 
-
 p {
     font-family: 'Roboto Mono', monospace;
 }
+
+/* MAIN BG IMG AND TEXT */
 
 #hero {
     width: 100%;
@@ -15,17 +18,19 @@ p {
     background: url('../images/fender-vibroverb-pixabay.jpg') top right no-repeat !important;
     background-size: cover;
     position: relative;
+    background-position: 25% 75%;
   }
 
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.608);
     position: absolute;
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
   }
+
   
   #hero h1 {
     font-family: 'Gruppo', sans-serif;
@@ -48,9 +53,13 @@ p {
     z-index: 1;
   }
 
+/* BACKGROUND COLOR */
+
   .bg-off-white {
     background-color: #f8f9fa;
 }
+
+/* BUTTONS */
 
 .btn-primary {
   background-color: #fafafa;
@@ -64,4 +73,12 @@ p {
   color: #fafafa;
   border-radius: 0;
   border-color: #000;
+}
+
+/* CONTACT FORM */
+
+.form-control {
+  border-radius: 0;
+  border-color: #000;
+  border: 2px solid;
 }
